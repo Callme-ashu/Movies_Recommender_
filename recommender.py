@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
 IMAGE_FOLDER = "images"
-MOVIE_FILE = "Cleaned_Movies.csv"
+MOVIE_FILE = "Short_data.csv"
 SIMILARITY_FILE = "similarity.pkl"
 
 # Load initial data
@@ -90,3 +90,13 @@ def retrain_model():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
+
+
+
+
+
+
+#python3 recommender.py
